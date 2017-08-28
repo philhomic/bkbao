@@ -26,7 +26,7 @@
       </div>
 
       <div class="tutorial-section">
-        <v-container>
+        <v-container class="container">
           <!--v-router-->
           <v-layout>
             <h2 class="tutorial-title">— 功能教程 —</h2>
@@ -82,7 +82,7 @@
 
       <div class="divider"></div>
       <div class="question-section">
-        <v-container>
+        <v-container class="container">
           <v-layout>
             <h2 class="question-title">— 常见问题 —</h2>
           </v-layout>
@@ -138,12 +138,17 @@
   .last-nav-btn
     margin-right: 40px
 
+  .container
+    max-width: 1200px
+
   .hope
     position: relative
     height: 20em
     overflow: hidden
     background-color: #1c1c25;
     text-align: center;
+    img
+      width: 100%
     .hope-text
       position: absolute
       top: 20px
