@@ -142,6 +142,8 @@
     position: relative
     height: 20em
     overflow: hidden
+    background-color: #1c1c25;
+    text-align: center;
     .hope-text
       position: absolute
       top: 20px
